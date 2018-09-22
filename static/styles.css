@@ -1,0 +1,112 @@
+body {
+    font-family: monospace;
+    background-color: #444
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #ffffff;
+}
+
+h1,
+h2 {
+    font-family: monospace;
+    margin: 0;
+}
+
+h1 {
+    border-bottom: 2px solid #eee;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p,
+span,
+dd,
+dt {
+    color: #cccccc;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffcc;
+    font-size: .75em;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.pane {
+    /* position: absolute; */
+    left: 25%;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 16px;
+    margin: 5px;
+    border-color: #999999;
+    background-color: #333333
+}
+
+.item-card {
+  box-shadow: 0px 0px 40px 3px rgba(70,70,70,1);
+  border: 1px solid #111;
+  border-radius: 10px;
+  margin: 48px 8px 8px 8px;
+  padding: 0 8px 0 8px;
+}
+
+.header {
+    left: 50%;
+    /* text-align: center; */
+}
+
+.name-category {
+  font-size: 16px;
+  margin-top: 3%;
+}
+
+.name {
+    display: inline-block;
+    /* float: left; */
+    font-size: 18px;
+    padding: 16px 0 16px 0;
+    width: 50%;
+}
+
+.description {
+  text-align: right;
+  /* float: right; */
+}
+
+.edit-delete-links {
+  margin-left: 1%;
+}
+
+
+.editdeletepane {}
+
+.flash {
+    background: #cee5f6;
+}
+
+.delete-form {
+  margin-top: 32px;
+}
+
+.creator {
+  float: right;
+}
+
+.creator-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;"
+}
